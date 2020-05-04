@@ -1,301 +1,716 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
 
+<html lang="en" class="minimal-style is-menu-fixed is-always-fixed is-selection-shareable blog-animated header-light header-small" data-effect="slideUp">
 <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Impose - Responsive HTML5 Template">
+    <meta name="keywords" content="personal, blog, html5">
+    <meta name="author" content="Pixelwars">
+    <title>Impose - for bloggers</title>
+    
+    <!-- FAV and TOUCH ICONS -->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png"/>
+    
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans:400,400i,700,700i|Poppins:300,400,500,600,700" rel="stylesheet">
+    
+    <!-- STYLES -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts/fontello/css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="js/jquery.magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="js/jquery.fluidbox/fluidbox.css">
+    <link rel="stylesheet" type="text/css" href="js/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="js/selection-sharer/selection-sharer.css">
+    <link rel="stylesheet" type="text/css" href="css/rotate-words.css">
+    <link rel="stylesheet" type="text/css" href="css/align.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="js/shortcodes/shortcodes.css">
+    <link rel="stylesheet" type="text/css" href="css/768.css">
+    <link rel="stylesheet" type="text/css" href="css/992.css">
 
-    <title>Sujit Mourya | Github Page</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- INITIAL SCRIPTS -->
+	<script src="js/modernizr.min.js"></script>
 
 </head>
 
-<body>
+<body class="  ">
 
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >Sujit Mourya</a>
-            </li>
-            <li>
-                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
-            </li>
-            <li>
-                <a href="#about" onclick = $("#menu-close").click(); >About</a>
-            </li>
-            <li>
-                <a href="#services" onclick = $("#menu-close").click(); >Services</a>
-            </li>
-            <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
-            </li>
-            <li>
-                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
-            </li>
-        </ul>
-    </nav>
-
-    <!-- Header -->
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1>Sujit Mourya</h1>
-            <h3>Drupal Developer, Laravel Enthusiast</h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
-        </div>
-    </header>
-
-    <!-- About -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Hi there, Welcome to the my Github Page!</h2>
-                     
-                </div>
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Services -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>My Skills</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Drupal</strong>
-                                </h4>
-                                <p>I am well versed in Drupal development and custom module development for Drupal.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Laravel</strong>
-                                </h4>
-                                <p>Strong believe in Laravel as a framework. I love hacking laravel code.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Node.js</strong>
-                                </h4>
-                                <p>I love to get my handson on Node.js someday.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>HTML5 & CSS3, Jquery</strong>
-                                </h4>
-                                <p>I adore websites having nice UI. jQuery, HTML5 and CSS3 excites me.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
+    <!-- page -->
+    <div id="page" class="hfeed site">
+        
+        <!-- header -->
+        <header id="masthead" class="site-header" role="banner">
+ 			
+            
+            <!-- site-navigation -->
+            <nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+                
+                
+                
+                <!-- layout-medium -->
+                <div class="layout-medium">
+                
+                    
+                    
+                    
+                    <!-- site-title : image-logo -->
+                    <h1 class="site-title">
+                        <a href="index.html" rel="home">
+                            <img src="images/site/logo.png" alt="logo">
+                        	<span class="screen-reader-text">Sujit Mourya</span>
+                        </a>
+                    </h1>
+                    <!-- site-title -->
+                    
+                    <!-- site-title : text-logo -->
+                    <!--<h1 class="site-title">
+                        <a href="../index.html" rel="home">
+                            Haley Dust
+                        </a>
+                    </h1>-->
+                    <!-- site-title -->
+                    
+                    
+                    
+                
+                    <a class="menu-toggle"><span class="lines"></span></a>
+                    
+                    <!-- nav-menu -->
+                    <div class="nav-menu">
+                        <ul>
+                            <li><a href="index.html">HOME</a>
+                                <!-- level 2 -->
+                                <ul>
+                                    <li><a href="blog-bold-with-sidebar.html">Blog Bold</a>
+                                        <!-- level 3 -->
+                                        <ul>
+                                            <li><a href="blog-bold.html">Full Width</a></li>
+                                        </ul>
+                                        <!-- level 3 -->
+                                    </li>
+                                    <li><a href="blog-irregular-with-sidebar.html">Blog Irregular</a>
+                                        <!-- level 3 -->
+                                        <ul>
+                                            <li><a href="blog-irregular.html">Full Width</a></li>
+                                        </ul>
+                                        <!-- level 3 -->
+                                    </li>
+                                    <li><a href="blog-creative-with-sidebar.html">Blog Creative</a>
+                                        <!-- level 3 -->
+                                        <ul>
+                                            <li><a href="blog-creative.html">Full Width</a></li>
+                                        </ul>
+                                        <!-- level 3 -->
+                                    </li>
+                                    <li><a href="blog-waterfall-with-sidebar.html">Blog Waterfall</a>
+                                        <!-- level 3 -->
+                                        <ul>
+                                            <li><a href="blog-waterfall.html">Full Width</a></li>
+                                        </ul>
+                                        <!-- level 3 -->
+                                    </li>
+                                    <li><a href="blog-regular-with-sidebar.html">Blog Regular</a>
+                                        <!-- level 3 -->
+                                        <ul>
+                                            <li><a href="blog-regular.html">Full Width</a></li>
+                                        </ul>
+                                        <!-- level 3 -->
+                                    </li>
+                                    <li><a href="blog-grid-with-sidebar.html">Blog Grid</a>
+                                        <!-- level 3 -->
+                                        <ul>
+                                            <li><a href="blog-grid.html">Full Width</a></li>
+                                        </ul>
+                                        <!-- level 3 -->
+                                    </li>
+                                    <li><a href="blog-list-with-sidebar.html">Blog List</a>
+                                        <!-- level 3 -->
+                                        <ul>
+                                            <li><a href="blog-list.html">Full Width</a></li>
+                                        </ul>
+                                        <!-- level 3 -->
+                                    </li>
+                                    <li><a href="blog-creative-first-full-with-sidebar.html">1st Full + Creative</a>
+                                        <!-- level 3 -->
+                                        <ul>
+                                            <li><a href="blog-creative-first-full.html">Full Width</a></li>
+                                        </ul>
+                                        <!-- level 3 -->
+                                    </li>
+                                    <li><a href="blog-irregular-first-full-with-sidebar.html">1st Full + Irregular</a>
+                                        <!-- level 3 -->
+                                        <ul>
+                                            <li><a href="blog-irregular-first-full.html">Full Width</a></li>
+                                        </ul>
+                                        <!-- level 3 -->
+                                    </li>
+                                    <li><a href="blog-grid-first-full-with-sidebar.html">1st Full + Grid</a>
+                                        <!-- level 3 -->
+                                        <ul>
+                                            <li><a href="blog-grid-first-full.html">Full Width</a></li>
+                                        </ul>
+                                        <!-- level 3 -->
+                                    </li>
+                                    <li><a href="blog-list-first-full-with-sidebar.html">1st Full + List</a>
+                                        <!-- level 3 -->
+                                        <ul>
+                                            <li><a href="blog-list-first-full.html">Full Width</a></li>
+                                        </ul>
+                                        <!-- level 3 -->
+                                    </li>
+                                </ul>
+                                <!-- level 2 -->
+                            </li>
+                            <li><a href="typo.html">Features</a>
+                                <!-- level 2 -->
+                                <ul>
+                                    <li><a href="blog-list-first-full-with-sidebar.html">Header Styles</a>
+                                        <!-- level 3 -->
+                                        <ul>
+                                            <li><a href="index.html">Default</a></li>
+                                            <li><a href="blog-regular-with-sidebar.html">Classic Light</a></li>
+                                            <li><a href="blog-regular.html">Classic Dark</a></li>
+                                        </ul>
+                                        <!-- level 3 -->
+                                    </li>
+                                    <li><a href="blog-single.html">Single Post</a>
+                                        <!-- level 3 -->
+                                        <ul>
+                                            <li><a href="blog-single.html">Standart Post</a></li>
+                                            <li><a href="blog-single-with-sidebar.html">Post with sidebar</a></li>
+                                            <li><a href="blog-single-classic.html">Classic Post</a></li>
+                                            <li><a href="blog-single-video.html">Video Post</a></li>
+                                            <li><a href="blog-single-audio.html">Audio Post</a></li>
+                                            <li><a href="blog-single-gallery.html">Gallery Post</a></li>
+                                        </ul>
+                                        <!-- level 3 -->
+                                    </li>
+                                    <li><a href="resume.html">Resume</a></li>
+                                    <li><a href="typo.html">Typography</a></li>
+                                    <li><a href="shortcodes.html">Shortcodes</a></li>
+                                    <li><a href="page-full.html">Page Full Width</a></li>
+                                    <li><a href="#">Others</a>
+                                        <!-- level 3 -->
+                                        <ul>
+                                            <li><a href="grid.html">Grid</a></li>
+                                            <li><a href="form-elements.html">Forms</a></li>
+                                            <li><a href="404.html">404 Page</a></li>
+                                        </ul>
+                                        <!-- level 3 -->
+                                    </li>
+                                </ul>
+                                <!-- level 2 -->
+                            </li>
+                            <li><a href="cat-archives.html">ADVENTURE</a></li>
+                            <li><a href="cat-archives.html">LIFE</a></li>
+                            <li><a href="about.html">ABOUT ME</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
                     </div>
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Callout -->
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Let me show you some of my work</h1>
-        </div>
-    </aside>
-
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
-                            </div>
+                    <!-- nav-menu -->
+                    
+                    <a class="search-toggle toggle-link"></a>
+                                        
+                    <!-- search-container -->
+                    <div class="search-container">
+                        
+                        <div class="search-box" role="search">
+                            <form method="get" class="search-form" action="#">
+                                <label>Search Here
+                                    <input type="search" id="search-field" placeholder="type and hit enter" name="s">
+                                </label>
+                                <input type="submit" class="search-submit" value="Search">
+                            </form>
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                </a>
-                            </div>
-                        </div>
+                    
                     </div>
-                    <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
+                    <!-- search-container -->
+                    
+                    <!-- social-container -->
+                    <div class="social-container">
+                        
+                        <a class="social-link facebook" href="#"></a>
+                        <a class="social-link twitter" href="#"></a>
+                        <a class="social-link vine" href="#"></a>
+                        <a class="social-link dribbble" href="#"></a>
+                        <a class="social-link instagram" href="#"></a>
+    
+                    </div>
+                    <!-- social-container -->
+        
                 </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
+                <!-- layout-medium -->
+                
+            </nav>
+            <!-- site-navigation -->
+            
+            
+            
+            
+            
+            		
+        </header>
+        <!-- header -->
+        
+        
+        
+        
+        <!-- site-main -->
+        <div id="main" class="site-main">
+<div class="layout-medium"> 
+            <div id="primary" class="content-area">
+             
+            
+            
+            
+             
+        
+        	
 
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+            
+                    <!-- site-content -->
+                    <div id="content" class="site-content" role="main"> <!-- .hentry -->
+                        <article class="hentry page">
+                            
+                                
+                            <!-- .entry-content -->
+                            <div class="entry-content intro" data-animation="rotate-1">
+                                
+                                
+                                
+                                <!-- .profile-image -->
+                                <div class="profile-image">
+                                	<img alt="profile" src="images/site/about-me-2.jpg"/>
+                                </div>  
+                                <!-- .profile-image -->
+                                
+                                
+                                <h2><em>Hi.</em> I am Sujit Mourya</h2>
+                                <h3>I am a 
+                                    <strong>blogger</strong> 
+                                    <strong>traveler</strong> 
+                                    <strong>writer</strong>
+                                    <strong>photographer</strong>
+                                    <strong>coder</strong>
+                                    <strong>musician</strong>
+                                    <strong>foodie</strong>
+                                </h3>
+                                
+                                
+                                <!-- .link-boxes -->
+                                <figure>
+                                	<a href="about.html"><img src="images/site/box-01.jpg" alt="About Me"></a>
+                                    <figcaption class="wp-caption-text">About Me</figcaption>
+                                </figure>        
+                                
+                                <figure>
+                                	<a href="about.html"><img src="images/site/box-02.jpg" alt="About Me"></a>
+                                    <figcaption class="wp-caption-text">Life</figcaption>
+                                </figure> 
+                                
+                                <figure>
+                                	<a href="about.html"><img src="images/site/box-03.jpg" alt="About Me"></a>
+                                    <figcaption class="wp-caption-text">Travel</figcaption>
+                                </figure> 
+                                
+                                <figure>
+                                	<a href="https://www.instagram.com/pixelwarsdesign/"><img src="images/site/box-04.jpg" alt="About Me"></a>
+                                    <figcaption class="wp-caption-text">Follow On Instagram</figcaption>
+                                </figure> 
+                                <!-- .link-boxes -->         
+                                	
+                                    
+                             </div> 
+                             <!-- .entry-content -->
+                                
+                                	
+                                    
+                         </article> 
+                         <!-- .page -->
+                                 
+                                 
+                                 
+                                 
+                       <!-- .home-title -->
+                       <h3 class="widget-title home-title">LATEST FROM THE BLOG</h3>  
+                         
+                        
+                       <!-- BLOG SIMPLE -->
+                       <div class="blog-simple">
+                            
+                            <!-- .hentry -->
+                            <article class="hentry post has-post-thumbnail">
+                                
+                                <!-- .hentry-left -->
+                                <div class="hentry-left">
+                                    <div class="entry-date">
+                                        <span class="day">17</span>
+                                        <span class="month">May</span>
+                                        <span class="year">2015</span>
+                                    </div>
+                                    <div class="featured-image" style="background-image:url(images/blog/06.jpg)"></div>
+                                </div>
+                                <!-- .hentry-left -->
+                                
+                                <!-- .hentry-middle -->
+                                <div class="hentry-middle">
+                                        
+                                    <!-- .entry-title -->
+                                    <h2 class="entry-title"><a href="blog-single.html">Gathering with old friends</a></h2>
+                            
+                                </div>
+                                <!-- .hentry-middle -->
+                                
+                                <a class="post-link" href="blog-single.html">Gathering with old friends</a>
+                                
+                            </article>
+                            <!-- .hentry -->
+                            
+                            <!-- .hentry -->
+                            <article class="hentry post has-post-thumbnail">
+                                
+                                <!-- .hentry-left -->
+                                <div class="hentry-left">
+                                    <div class="entry-date">
+                                        <span class="day">03</span>
+                                        <span class="month">Apr</span>
+                                        <span class="year">2015</span>
+                                    </div>
+                                    <div class="featured-image" style="background-image:url(images/blog/07.jpg)"></div>
+                                </div>
+                                <!-- .hentry-left -->
+                                
+                                <!-- .hentry-middle -->
+                                <div class="hentry-middle">
+                                        
+                                    <!-- .entry-title -->
+                                    <h2 class="entry-title"><a href="blog-single.html">Notes On Life</a></h2>
+                            
+                                </div>
+                                <!-- .hentry-middle -->
+                                
+                                <a class="post-link" href="blog-single.html">Notes On Life</a>
+                                
+                            </article>
+                            <!-- .hentry -->
+                            
+                            <!-- .hentry -->
+                            <article class="hentry post has-post-thumbnail">
+                                
+                                <!-- .hentry-left -->
+                                <div class="hentry-left">
+                                    <div class="entry-date">
+                                        <span class="day">09</span>
+                                        <span class="month">Jan</span>
+                                        <span class="year">2015</span>
+                                    </div>
+                                    <div class="featured-image" style="background-image:url(images/blog/08.jpg)"></div>
+                                </div>
+                                <!-- .hentry-left -->
+                                
+                                <!-- .hentry-middle -->
+                                <div class="hentry-middle">
+                                        
+                                    <!-- .entry-title -->
+                                    <h2 class="entry-title"><a href="blog-single.html">Minimalist Living Tips</a></h2>
+                            
+                                </div>
+                                <!-- .hentry-middle -->
+                                
+                                <a class="post-link" href="blog-single.html">Minimalist Living Tips</a>
+                                
+                                
+                            </article>
+                            <!-- .hentry -->
+                            
+                            <!-- .hentry -->
+                            <article class="hentry post has-post-thumbnail">
+                                
+                                <!-- .hentry-left -->
+                                <div class="hentry-left">
+                                    <div class="entry-date">
+                                        <span class="day">14</span>
+                                        <span class="month">Jun</span>
+                                        <span class="year">2015</span>
+                                    </div>
+                                    <div class="featured-image" style="background-image:url(images/blog/09.jpg)"></div>
+                                </div>
+                                <!-- .hentry-left -->
+                                
+                                <!-- .hentry-middle -->
+                                <div class="hentry-middle">
+                                        
+                                    <!-- .entry-title -->
+                                    <h2 class="entry-title"><a href="blog-single.html">History of The Beloved Machine</a></h2>
+                            
+                                </div>
+                                <!-- .hentry-middle -->
+                                
+                                <a class="post-link" href="blog-single.html">History of The Beloved Machine</a>
+                                
+                                
+                            </article>
+                            <!-- .hentry -->
+                            
+                            <!-- .hentry -->
+                            <article class="hentry post has-post-thumbnail">
+                                
+                                <!-- .hentry-left -->
+                                <div class="hentry-left">
+                                    <div class="entry-date">
+                                        <span class="day">25</span>
+                                        <span class="month">Agu</span>
+                                        <span class="year">2015</span>
+                                    </div>
+                                    <div class="featured-image" style="background-image:url(images/blog/10.jpg)"></div>
+                                </div>
+                                <!-- .hentry-left -->
+                                
+                                <!-- .hentry-middle -->
+                                <div class="hentry-middle">
+                                        
+                                    <!-- .entry-title -->
+                                    <h2 class="entry-title"><a href="blog-single.html">Mastering Photography</a></h2>
+                            
+                                </div>
+                                <!-- .hentry-middle -->
+                                
+                                <a class="post-link" href="blog-single.html">Mastering Photography</a>
+                                
+                                
+                            </article>
+                            <!-- .hentry -->
+                            
+                       </div> 
+                       <!-- BLOG SIMPLE -->
+                      
+                      
+                      
+                      <!-- .home-launch -->
+                      <div class="home-launch">
+                        <a class="button" href="blog-irregular.html">See All Posts</a>
+                      </div> 
+                      <!-- .home-launch -->
+                               
+                                
+                    </div>
+                    <!-- site-content -->
+            
+            </div>
+                <!-- primary -->    
+            
+            
+            	
+            
+            
+            </div>
+            <!-- layout -->
+        
+        
+        </div>
+        <!-- site-main -->
+        
+        
+        
+        <!-- site-footer -->
+        <footer id="colophon" class="site-footer" role="contentinfo">
+			
+            <!-- layout-medium -->
+            <div class="layout-medium">
+            
+            	
+                <!-- site-title-wrap -->
+                <div class="site-title-wrap">
+                
+                
+                    <!-- site-title : text-logo -->
+                    <!--<h1 class="site-title">
+                        <a href="../index.html" rel="home">
+                            Jeff Winger
+                        </a>
+                    </h1>-->
+                    <!-- site-title -->
+                               
+                    <!-- site-title : image-logo -->
+                    <h1 class="site-title">
+                        <a href="index.html" rel="home">
+                            <img src="images/site/logo.png" alt="logo">
+                        </a>
+                    </h1>
+                    <!-- site-title -->
+                    
+                    <p class="site-description">just living the life as it goes by</p>
+                
                 </div>
-            </div>
-        </div>
-    </aside>
-
-    <!-- Map -->
-    <section id="contact" class="map">
-       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d942.1062679888735!2d72.87953648565812!3d19.176627777135966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1429281930343" width="100%" height="600" frameborder="0" style="border:0"></iframe> <br />
-        <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
-        </iframe>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Contact me</strong>
-                    </h4>
-                    <p>Goregaon East<br>Mumbai, India</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (91) 9664630450</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:sujitm1987@gmail.com">sujitm1987@gmail.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="http://facebook.com/sujann143"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://twitter.com/sujann143"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li> 
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; Sujit Mourya</p>
+                <!-- site-title-wrap -->
+                
+            	
+                <!-- footer-social -->
+                <div class="footer-social">
+                	
+                    <div class="textwidget">
+                        <a class="social-link facebook" href="#"></a>
+                        <a class="social-link twitter" href="#"></a>
+                        <a class="social-link vine" href="#"></a>
+                        <a class="social-link dribbble" href="#"></a>
+                        <a class="social-link instagram" href="#"></a>
+                    </div>
+                    
                 </div>
+                <!-- footer-social -->
+                
+                
+                
+                <!-- widget-area -->
+                <!--<div class="widget-area" role="complementary">
+           
+                    <div class="row">
+                        
+                        <div class="col-sm-6 col-md-4">
+                        	
+                            
+                            <aside class="widget widget_text">
+                              
+                              <div class="textwidget">
+                                <a href="#"><img src="../images/blog/banner.jpg" alt="banner"></a>
+                              </div>
+                            </aside>
+                        
+                        </div>
+                    	
+                        <div class="col-sm-6 col-md-4">
+                        	
+                            <aside class="widget widget_categories">
+                              <ul>
+                                <li class="cat-item"><a href="#" title="View all posts filed under Nature">Nature</a></li>
+                                <li class="cat-item"><a href="#" title="View all posts filed under Life">Life</a></li>
+                                <li class="cat-item"><a href="#" title="View all posts filed under Adventure">Adventure</a></li>
+                                <li class="cat-item"><a href="#" title="View all posts filed under Freebies">Freebies</a></li>
+                              </ul>
+                            </aside>
+                            
+                            
+                            <aside class="widget widget_mc4wp_widget">
+                                <h3 class="widget-title">Sign Up For The Newsletter</h3>
+                                <div class="form mc4wp-form">
+                                    <form method="post">
+                                        <p>
+                                            <label>Email address: </label>
+                                            <input type="email" name="EMAIL" placeholder="Your email address" required="">
+                                        </p>
+                                        <p>
+                                            <input type="submit" value="Sign up">
+                                        </p>
+                                    </form>
+                                </div>
+                            </aside>
+                            
+                        </div>
+                        
+                        <div class="col-sm-12 col-md-4">
+                        	
+                            <aside class="widget widget_widget_tptn_pop">
+                                <h3 class="widget-title">Trending Posts</h3>
+                                <div class="tptn_posts tptn_posts_widget">
+                                    <ul>
+                                    
+                                        <li>
+                                            <a href="#" class="tptn_link">
+                                                <img src="../images/blog/p2.jpg" alt="post-image" class="tptn_thumb">
+                                            </a>
+                                            <span class="tptn_after_thumb">
+                                                <a href="#" class="tptn_link"><span class="tptn_title">Feel The Wind</span></a>
+                                                <span class="tptn_date"> September 3, 2014</span> 
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="#" class="tptn_link">
+                                                <img src="../images/blog/p3.jpg" alt="post-image" class="tptn_thumb">
+                                            </a>
+                                            <span class="tptn_after_thumb">
+                                                <a href="#" class="tptn_link"><span class="tptn_title">Stop Worrying About How Pretty It is</span></a>
+                                                <span class="tptn_date"> September 3, 2014</span> 
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="#" class="tptn_link">
+                                                <img src="../images/blog/p4.jpg" alt="post-image" class="tptn_thumb">
+                                            </a>
+                                            <span class="tptn_after_thumb">
+                                                <a href="#" class="tptn_link"><span class="tptn_title">10 Killer Blogging Tips</span></a>
+                                                <span class="tptn_date"> September 3, 2014</span> 
+                                            </span>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </aside>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                </div>-->
+                <!-- widget-area -->
+                
+               
+            
             </div>
-        </div>
-    </footer>
+            <!-- layout-medium -->
+                
+                
+            <!-- .site-info -->
+            <div class="site-info">
+            	
+                <!-- layout-medium -->
+            	<div class="layout-medium">
+                
+            		<div class="textwidget">crafted with <i class="pw-icon-heart"></i> <em>by</em> Pixelwars</div>
+                
+                </div>
+            	<!-- layout-medium -->
+            
+            </div>
+            <!-- .site-info -->
+            
+            
+            
+		</footer>
+        <!-- site-footer -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+        
+	</div>
+    <!-- page -->
+    
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    </script>
+	   if (!window.jQuery) { 
+		  document.write('<script src="js/jquery-3.1.1.min.js"><\/script>'); 
+	   }
+	</script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="js/fastclick.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jquery.viewport.mini.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>    
+    <script src="js/jquery-validation/jquery.validate.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.fluidbox/jquery.fluidbox.min.js"></script>
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/selection-sharer/selection-sharer.js"></script>
+    <script src="js/socialstream.jquery.js"></script>
+    <script src="js/jquery.collagePlus/jquery.collagePlus.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/shortcodes/shortcodes.js"></script>
 
 </body>
-
 </html>
